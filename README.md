@@ -22,5 +22,7 @@ M=ya*xa'*(xa*xa')^-1;
 
 bitbucket
 Maxeg13b
-nlhr
+nlhr@yandex.ru
+или для старого с хоружко
+nlhr@ya.ru
 zolo
