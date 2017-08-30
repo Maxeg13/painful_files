@@ -13,6 +13,9 @@ http://www.scholarpedia.org/article/Short-term_synaptic_plasticity
 
 copy( d.begin(), d.end(), ostream_iterator<int>(cout," ") );
 
+cann't connect signals qt - позаботиться, чтобы
+объект был создан
+
 bitbucket
 Maxeg13b
 nlhr@yandex.ru
