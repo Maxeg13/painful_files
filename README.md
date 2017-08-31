@@ -1,4 +1,6 @@
 # painful_files
+пора бы уже запомнить с матлабом: 3.8672e+02 - 1.5364e+02i
+
 fprintf(f,'%4.2f   %4.2f\n',[X Y]'); 
 
 regression:
