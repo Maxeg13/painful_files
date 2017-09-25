@@ -23,6 +23,11 @@ http://www.scholarpedia.org/article/Short-term_synaptic_plasticity
 
 copy( d.begin(), d.end(), ostream_iterator<int>(cout," ") );
 
+it is fuck, it is bullshit, i hate it: 
+LIBS += -L C:\QWT\lib -lqwt // right
+LIBS += -L C:\QWT\lib-lqwt // wrong
+-l is a fucking option that should be departed
+
 cann't connect signals qt - позаботиться, чтобы
 объект был создан
 
