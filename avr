@@ -1,1 +1,29 @@
-
+template <typename Type>
+struct getFr {
+  char* c;
+  getFr(char* c1)
+  {
+    c = c1;
+  }
+  Type count;
+  bool usage;
+  static int countSt;
+  unsigned long T;
+  int fr;
+  void operator()()
+  {
+    count++;
+    if (count == 500)
+    {
+      fr = (500000.) / (millis() - T);
+      count = 0;
+      T = millis();
+      Serial.println("");
+      Serial.print(c);
+      Serial.print(": ");
+      Serial.println(fr);
+    }
+    //return fr;
+  }
+};
+getFr<int> gF1("1"), gF2("2");
