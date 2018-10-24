@@ -7,6 +7,8 @@ zuvi9le
 fileMenu = menuBar()->addMenu(tr("&File")); прошу обратить внимание http://doc.qt.io/qt-5/qtwidgets-mainwindows-menus-example.html
 А shortcut здесь уже содержится (вероятно)
 
+GL->setRowMinimumHeight(i,x); 
+
 infoLabel->setText(tr("Invoked <b>File|New</b>")); - любопытно
 
 override просто красивое слово:
