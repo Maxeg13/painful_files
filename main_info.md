@@ -12,7 +12,7 @@ GL->setRowMinimumHeight(i,x);
 infoLabel->setText(tr("Invoked <b>File|New</b>")); - любопытно
 
 override просто красивое слово:
-void contextMenuEvent(QContextMenuEvent *event) override;
+void contextMenuEvent(QContextMenuEvent *event) override;// override - keyword, means we override namely virtual function
 
 connect(redoAct, &QAction::triggered, this, &MainWindow::redo); - застало врасплох , например SLOT(redo()) и SIGNAL
 
