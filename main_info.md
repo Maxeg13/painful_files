@@ -7,6 +7,10 @@ zuvi9le
 fileMenu = menuBar()->addMenu(tr("&File")); прошу обратить внимание http://doc.qt.io/qt-5/qtwidgets-mainwindows-menus-example.html
 А shortcut здесь уже содержится
 
+override просто красивое слово:
+void contextMenuEvent(QContextMenuEvent *event) override;
+
+
 Новый уровень инсталлирования: дистрибутив - если качается дома, качай на флешку
 
 потенциация и депрессия
