@@ -5,6 +5,7 @@ zuvi9le
 
 С++
 fileMenu = menuBar()->addMenu(tr("&File")); прошу обратить внимание http://doc.qt.io/qt-5/qtwidgets-mainwindows-menus-example.html
+А shortcut здесь уже содержится
 
 Новый уровень инсталлирования: дистрибутив - если качается дома, качай на флешку
 
