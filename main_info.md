@@ -5,7 +5,9 @@ zuvi9le
 
 С++
 fileMenu = menuBar()->addMenu(tr("&File")); прошу обратить внимание http://doc.qt.io/qt-5/qtwidgets-mainwindows-menus-example.html
-А shortcut здесь уже содержится
+А shortcut здесь уже содержится (вероятно)
+
+infoLabel->setText(tr("Invoked <b>File|New</b>")); - любопытно
 
 override просто красивое слово:
 void contextMenuEvent(QContextMenuEvent *event) override;
