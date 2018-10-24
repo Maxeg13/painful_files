@@ -12,6 +12,8 @@ infoLabel->setText(tr("Invoked <b>File|New</b>")); - любопытно
 override просто красивое слово:
 void contextMenuEvent(QContextMenuEvent *event) override;
 
+connect(redoAct, &QAction::triggered, this, &MainWindow::redo); - застало врасплох , например SLOT(redo()) и SIGNAL
+
 
 Новый уровень инсталлирования: дистрибутив - если качается дома, качай на флешку
 
