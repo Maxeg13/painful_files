@@ -3,6 +3,16 @@
 unn wifi
 zuvi9le
 
+avr
+нужно репирить avrdude, сайт с вк.
+при прожиге не сверяются сигнатуры, и флеш обновляется. ISR() - опасность с аргументом (возможно, не именованная кнстанта)
+adrdude может переписать глобальную переменную path
+при монтировании чипа необходимо проверить наличие подписей.
+mFile необходим для конфигурации avrdude (makefile)
+programmers notepad бессмысленен
+make all
+avrdude -c avrisp -p m2560 -b 19000 -P com8 -U flash:w:main.hex
+
 С++
 fileMenu = menuBar()->addMenu(tr("&File")); прошу обратить внимание http://doc.qt.io/qt-5/qtwidgets-mainwindows-menus-example.html
 newAct->setShortcuts(QKeySequence::New);
