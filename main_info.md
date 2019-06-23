@@ -17,6 +17,8 @@ avrdude -c avrisp -p m2560 -b 19000 -P com8 -U flash:w:main.hex
 fileMenu = menuBar()->addMenu(tr("&File")); прошу обратить внимание http://doc.qt.io/qt-5/qtwidgets-mainwindows-menus-example.html
 newAct->setShortcuts(QKeySequence::New);
 
+тупанул - передавал динам одномерный массив в ф-ю T**, а вызывал параметры неправильно T[i]->
+
 GL->setRowMinimumHeight(i,x); 
 
 infoLabel->setText(tr("Invoked <b>File|New</b>")); - любопытно
