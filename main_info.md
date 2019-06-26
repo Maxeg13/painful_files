@@ -3,6 +3,9 @@
 unn wifi
 zuvi9le
 
+symbols
+"Q WERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm!@#$%^&*()_=-[]{}:;<>?'\"/.,`~"
+
 avr
 нужно репирить avrdude, сайт с вк.
 при прожиге не сверяются сигнатуры, и флеш обновляется. ISR() - опасность с аргументом (возможно, не именованная кнстанта)
